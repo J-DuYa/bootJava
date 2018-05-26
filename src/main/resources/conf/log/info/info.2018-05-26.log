@@ -147,3 +147,228 @@ girlsList
 HHH000397: Using ASTQueryTranslatorFactory
 退出
 response=[Girl [id=4, cupSize=A, age=22], Girl [id=5, cupSize=A, age=18], Girl [id=6, cupSize=G, age=19], Girl [id=7, cupSize=G, age=null], Girl [id=8, cupSize=S, age=19], Girl [id=9, cupSize=S, age=18], Girl [id=10, cupSize=B, age=28]]
+Application shutdown requested.
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:22:11 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication on DESKTOP-3HIF4TP with PID 8172 (E:\spring-boot\demo\target\classes started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:43:17 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9092473a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8081 (http)
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2839 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:43:17 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http) with context path ''
+Started DemoApplication in 6.297 seconds (JVM running for 7.087)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+进入
+url=/girlsList
+method=GET
+ip=10.0.68.243
+class_method=com.example.demo.controller.GirlController.girlList
+args={}
+girlsList
+HHH000397: Using ASTQueryTranslatorFactory
+退出
+response=[Girl [id=4, cupSize=A, age=22], Girl [id=5, cupSize=A, age=18], Girl [id=6, cupSize=G, age=19], Girl [id=7, cupSize=G, age=null], Girl [id=8, cupSize=S, age=19], Girl [id=9, cupSize=S, age=18], Girl [id=10, cupSize=B, age=28]]
+Application shutdown requested.
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:43:17 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication on DESKTOP-3HIF4TP with PID 14068 (E:\spring-boot\demo\target\classes started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:47:42 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9092473a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8081 (http)
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2961 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:47:42 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http) with context path ''
+Started DemoApplication in 6.416 seconds (JVM running for 7.198)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+进入
+url=/girlsList
+method=GET
+ip=10.0.68.243
+class_method=com.example.demo.controller.GirlController.girlList
+args={}
+girlsList
+HHH000397: Using ASTQueryTranslatorFactory
+退出
+response=[Girl [cupSize=A, age=22], Girl [cupSize=A, age=18], Girl [cupSize=G, age=19], Girl [cupSize=G, age=null], Girl [cupSize=S, age=19], Girl [cupSize=S, age=18], Girl [cupSize=B, age=28]]
+Application shutdown requested.
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@185a6e9: startup date [Sat May 26 14:47:42 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication on DESKTOP-3HIF4TP with PID 12816 (E:\spring-boot\demo\target\classes started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9d5509a: startup date [Sat May 26 14:57:08 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8af86c2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8081 (http)
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2788 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9d5509a: startup date [Sat May 26 14:57:08 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http) with context path ''
+Started DemoApplication in 6.696 seconds (JVM running for 7.525)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+进入
+url=/girlsList
+method=GET
+ip=10.0.68.243
+class_method=com.example.demo.controller.GirlController.girlList
+args={}
+girlsList
+HHH000397: Using ASTQueryTranslatorFactory
+退出
+response=[Girl [cupSize=A, age=22], Girl [cupSize=A, age=18], Girl [cupSize=G, age=19], Girl [cupSize=G, age=null], Girl [cupSize=S, age=19], Girl [cupSize=S, age=18], Girl [cupSize=B, age=28]]

@@ -50,7 +50,7 @@ public class Girl {
 
 	@Override
 	public String toString() {
-		return "Girl [id=" + id + ", cupSize=" + cupSize + ", age=" + age + "]";
+		return "Girl [cupSize=" + cupSize + ", age=" + age + "]";
 	}
 	
 	
