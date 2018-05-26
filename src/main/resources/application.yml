@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#logging:
+#  pattern:
+#    console:  "%d - %msg%n"
+##  path: E:/spring-boot/demo/src/main/resources/conf/log/
+#  file: E:/spring-boot/demo/src/main/resources/conf/log/sell.log
+#  level:
+#    com.example.demo.LoggerTest: debug

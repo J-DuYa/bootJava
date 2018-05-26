@@ -1,0 +1,162 @@
+Starting LoggerTest on DESKTOP-3HIF4TP with PID 4748 (started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@239105a8: startup date [Fri May 25 12:19:30 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d295b9fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@239105a8: startup date [Fri May 25 12:19:30 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Started LoggerTest in 8.178 seconds (JVM running for 9.621)
+name: JunZou, password: 123456
+name: JunZou, password: 123456
+error......
+Closing org.springframework.web.context.support.GenericWebApplicationContext@239105a8: startup date [Fri May 25 12:19:30 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting LoggerTest on DESKTOP-3HIF4TP with PID 6740 (started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Fri May 25 12:22:10 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fa0cc92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Fri May 25 12:22:10 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Started LoggerTest in 8.12 seconds (JVM running for 9.52)
+name: JunZou, password: 123456
+name: JunZou, password: 123456
+error......
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Fri May 25 12:22:10 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting LoggerTest on DESKTOP-3HIF4TP with PID 13500 (started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:26:02 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2fc3f2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:26:02 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Started LoggerTest in 8.222 seconds (JVM running for 9.666)
+name: JunZou, password: 123456
+name: JunZou, password: 123456
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:26:02 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting LoggerTest on DESKTOP-3HIF4TP with PID 13644 (started by 10523 in E:\spring-boot\demo)
+The following profiles are active: prod
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:27:44 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36a621c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:27:44 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Started LoggerTest in 8.4 seconds (JVM running for 9.798)
+name: JunZou, password: 123456
+name: JunZou, password: 123456
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7f284218: startup date [Fri May 25 12:27:44 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
