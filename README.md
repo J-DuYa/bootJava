@@ -7,6 +7,7 @@ git操作指令：
 3：git commit -m "first commit" 
 4：git remote add origin git@github.com:TreeZou/springBootDemo.git 
 5：git push -u origin master 
-
+xu
 spring注解
 @Transient 数据库语句会忽略
+@Data 不需要写getter and setter语句
