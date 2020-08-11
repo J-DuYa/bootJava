@@ -1,0 +1,45 @@
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jobService in com.example.demo.controller.JobController required a bean of type 'com.example.demo.service.Job.JobService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.service.Job.JobService' in your configuration.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jobService in com.example.demo.controller.JobController required a bean of type 'com.example.demo.service.Job.JobService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.service.Job.JobService' in your configuration.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jobService in com.example.demo.controller.JobController required a bean of type 'com.example.demo.service.Job.JobService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.service.Job.JobService' in your configuration.
+

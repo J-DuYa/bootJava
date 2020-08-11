@@ -17,12 +17,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.aspect.HttpAspect;
 import com.example.demo.repository.GirlRepository;
 import com.example.demo.service.GirlService;
 import com.example.demo.util.Girl;
 import com.example.demo.util.Result;
-import com.example.demo.utils.ResultUtil;
+import com.example.demo.util.ResultUtil;
 
 @RestController
 public class GirlController {

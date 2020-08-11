@@ -1,0 +1,248 @@
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h28m14s66ms787µs900ns).
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ecee32c: startup date [Mon Aug 10 18:33:33 CST 2020]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication on DESKTOP-9S9TLF1 with PID 22356 (B:\xtalpi\bootJava\target\classes started by xtalpi in B:\xtalpi\bootJava)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@25aca718: startup date [Tue Aug 11 14:42:25 CST 2020]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e0d3287] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;B:\software\;C:\Program Files\Git\cmd;B:\maven\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xtalpi\AppData\Local\Microsoft\WindowsApps;C:\Users\xtalpi\AppData\Roaming\npm;B:\Microsoft VS Code\bin;C:\Users\xtalpi\go\bin;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4477 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobController': Unsatisfied dependency expressed through field 'jobService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.Job.JobService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting DemoApplication on DESKTOP-9S9TLF1 with PID 9200 (B:\xtalpi\bootJava\target\classes started by xtalpi in B:\xtalpi\bootJava)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f9678e1: startup date [Tue Aug 11 14:55:34 CST 2020]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8fe6bef4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;B:\software\;C:\Program Files\Git\cmd;B:\maven\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xtalpi\AppData\Local\Microsoft\WindowsApps;C:\Users\xtalpi\AppData\Roaming\npm;B:\Microsoft VS Code\bin;C:\Users\xtalpi\go\bin;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4250 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobController': Unsatisfied dependency expressed through field 'jobService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.Job.JobService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting DemoApplication on DESKTOP-9S9TLF1 with PID 35428 (B:\xtalpi\bootJava\target\classes started by xtalpi in B:\xtalpi\bootJava)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c4ed84: startup date [Tue Aug 11 14:58:41 CST 2020]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3458c6f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;B:\software\;C:\Program Files\Git\cmd;B:\maven\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xtalpi\AppData\Local\Microsoft\WindowsApps;C:\Users\xtalpi\AppData\Roaming\npm;B:\Microsoft VS Code\bin;C:\Users\xtalpi\go\bin;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4840 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobController': Unsatisfied dependency expressed through field 'jobService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.Job.JobService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting DemoApplication on DESKTOP-9S9TLF1 with PID 40740 (B:\xtalpi\bootJava\target\classes started by xtalpi in B:\xtalpi\bootJava)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbd8e44: startup date [Tue Aug 11 14:59:28 CST 2020]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96070ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;B:\software\;C:\Program Files\Git\cmd;B:\maven\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xtalpi\AppData\Local\Microsoft\WindowsApps;C:\Users\xtalpi\AppData\Roaming\npm;B:\Microsoft VS Code\bin;C:\Users\xtalpi\go\bin;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5044 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbd8e44: startup date [Tue Aug 11 14:59:28 CST 2020]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/job/list],methods=[GET]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.JobController.getJobList()
+Mapped "{[/qr/imageQR],methods=[GET]}" onto public void com.example.demo.controller.QRCodeController.getQR() throws java.io.IOException,com.google.zxing.WriterException
+Mapped "{[/qr/common],methods=[GET]}" onto public void com.example.demo.controller.QRCodeController.getProject()
+Mapped "{[/user/register],methods=[POST]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.UserController.register(com.example.demo.entry.User)
+Mapped "{[/user/login],methods=[POST]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.UserController.login(com.example.demo.entry.User)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8088"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 14.483 seconds (JVM running for 17.198)
+A cookie header was received [1596423473,1596772561,1597025651; theme=#2398ab; username-localhost-8888="2|1:0|10:1597025755|23:username-localhost-8888|44:ZmI4ZTM2MjY0MDE1NGU4NWIzYjRlNWZiMzAyMTkxNzk=|a52826a89465937a1356bee02a7b970e506579ef91ad9669dec0893bc2e07463"; _xsrf=2|9dcfd4aa|06f31ad2c97c3528089569b6b37a0210|1597025755; Nitrogen-Name=duya; Admin-Token=eyJpYXQiOjE1OTcxMTEyMTksImV4cCI6MTU5NzE0MDAxOSwiYWxnIjoiSFM1MTIifQ.eyJjb25maXJtIjozM30.yUGo-1TLLu14GxvXmTPvVvpqCcehCKAQb7SyWkXXsKkSxQ0XGWOKfyUVaKBUZjUcWRAQJop1HxFRfGOMPdBcmg; Nitrogen-Auth=admin; Nitrogen-Email=jun.zou@xtalpi.com; isSubMenu=true; secMenu={%22name%22:%22%E4%BB%BB%E5%8A%A1%22%2C%22icon%22:%22task%22%2C%22isSecond%22:true%2C%22children%22:[{%22path%22:%22/job%22%2C%22name%22:%22%E4%BB%BB%E5%8A%A1%22}%2C{%22path%22:%22/job/jobTemplate%22%2C%22name%22:%22%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF%22}]}; Hm_lpvt_26d283a6e15feec1f885bd9829001dbc=1597111366] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 79 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbd8e44: startup date [Tue Aug 11 14:59:28 CST 2020]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication on DESKTOP-9S9TLF1 with PID 31312 (B:\xtalpi\bootJava\target\classes started by xtalpi in B:\xtalpi\bootJava)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51acdf2e: startup date [Tue Aug 11 15:04:30 CST 2020]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7f992ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;B:\software\;C:\Program Files\Git\cmd;B:\maven\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xtalpi\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xtalpi\AppData\Local\Microsoft\WindowsApps;C:\Users\xtalpi\AppData\Roaming\npm;B:\Microsoft VS Code\bin;C:\Users\xtalpi\go\bin;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4992 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/girls/age/{age}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByAge(java.lang.Integer)
+Mapped "{[/girls/{id}],methods=[DELETE]}" onto public void com.example.demo.controller.GirlController.girlDelete(java.lang.Integer)
+Mapped "{[/girlsList],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlList()
+Mapped "{[/addGirls],methods=[POST]}" onto public com.example.demo.util.Result<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlAdd(com.example.demo.util.Girl,org.springframework.validation.BindingResult)
+Mapped "{[/girls/{id}],methods=[PUT]}" onto public com.example.demo.util.Girl com.example.demo.controller.GirlController.girlUpadate(java.lang.Integer,java.lang.String,java.lang.Integer)
+Mapped "{[/girls/two],methods=[POST]}" onto public void com.example.demo.controller.GirlController.girlTwo()
+Mapped "{[/girls/{id}],methods=[GET]}" onto public java.util.Optional<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlFindOne(java.lang.Integer)
+Mapped "{[/girls/cupSize/{cupSize}],methods=[GET]}" onto public java.util.List<com.example.demo.util.Girl> com.example.demo.controller.GirlController.girlListByCupSize(java.lang.String)
+Mapped "{[/index.html]}" onto public java.lang.String com.example.demo.controller.HelloController.index()
+Mapped "{[/job/list],methods=[GET]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.JobController.getJobList()
+Mapped "{[/qr/common],methods=[GET]}" onto public void com.example.demo.controller.QRCodeController.getProject()
+Mapped "{[/qr/imageQR],methods=[GET]}" onto public void com.example.demo.controller.QRCodeController.getQR() throws java.io.IOException,com.google.zxing.WriterException
+Mapped "{[/user/register],methods=[POST]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.UserController.register(com.example.demo.entry.User)
+Mapped "{[/user/login],methods=[POST]}" onto public com.example.demo.util.Result<java.lang.Object> com.example.demo.controller.UserController.login(com.example.demo.entry.User)
+Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51acdf2e: startup date [Tue Aug 11 15:04:30 CST 2020]; root of context hierarchy
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in handleException
+Adding welcome page template: index
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting beans in phase 2147483647
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Starting ProtocolHandler ["http-nio-8088"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 18.117 seconds (JVM running for 22.986)
+A cookie header was received [1596423473,1596772561,1597025651; theme=#2398ab; username-localhost-8888="2|1:0|10:1597025755|23:username-localhost-8888|44:ZmI4ZTM2MjY0MDE1NGU4NWIzYjRlNWZiMzAyMTkxNzk=|a52826a89465937a1356bee02a7b970e506579ef91ad9669dec0893bc2e07463"; _xsrf=2|9dcfd4aa|06f31ad2c97c3528089569b6b37a0210|1597025755; Nitrogen-Name=duya; Admin-Token=eyJpYXQiOjE1OTcxMTEyMTksImV4cCI6MTU5NzE0MDAxOSwiYWxnIjoiSFM1MTIifQ.eyJjb25maXJtIjozM30.yUGo-1TLLu14GxvXmTPvVvpqCcehCKAQb7SyWkXXsKkSxQ0XGWOKfyUVaKBUZjUcWRAQJop1HxFRfGOMPdBcmg; Nitrogen-Auth=admin; Nitrogen-Email=jun.zou@xtalpi.com; isSubMenu=true; secMenu={%22name%22:%22%E4%BB%BB%E5%8A%A1%22%2C%22icon%22:%22task%22%2C%22isSecond%22:true%2C%22children%22:[{%22path%22:%22/job%22%2C%22name%22:%22%E4%BB%BB%E5%8A%A1%22}%2C{%22path%22:%22/job/jobTemplate%22%2C%22name%22:%22%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF%22}]}; Hm_lpvt_26d283a6e15feec1f885bd9829001dbc=1597111366] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms

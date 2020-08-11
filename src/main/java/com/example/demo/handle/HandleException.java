@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.demo.exception.GirlException;
 import com.example.demo.util.Result;
-import com.example.demo.utils.ResultUtil;
+import com.example.demo.util.ResultUtil;
 
 @ControllerAdvice
 public class HandleException {
@@ -26,5 +26,4 @@ public class HandleException {
 			return ResultUtil.error(-1, "未知错误");
 		}
 	}
-	
 }
