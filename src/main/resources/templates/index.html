@@ -10,7 +10,22 @@
 		function showAlert() {
 			alert("是的成功了");
 		} 
-	
+		// 测试值得copy
+		function test (obj) {
+			console.log(obj);
+			obj["_f"]["_a"] = 2;
+		}
+
+		var r = {
+			_t: 1,
+			_f: {
+				_a: []
+			}
+		};
+
+		test(r);
+
+		console.log(r);
 	</script>
 </body>
 </html>

@@ -246,3 +246,5 @@ A cookie header was received [1596423473,1596772561,1597025651; theme=#2398ab; u
 Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
 FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m17s674ms386µs600ns).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s464ms299µs600ns).
