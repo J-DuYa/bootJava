@@ -1,13 +1,10 @@
 package com.example.demo.entry;
 
 import javax.persistence.Column;
-import javax.validation.constraints.NotBlank;
 
 public class User {
 
     private String Id;
-
-    @NotBlank(message = "这个字段必填")
     @Column(name = "username")
     private String username;
 

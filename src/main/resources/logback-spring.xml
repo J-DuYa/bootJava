@@ -25,7 +25,7 @@
 		<!-- error ch.qos.logback.core.rolling.TimeBasedRolligPolicy -->
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- 路径 -->
-			<fileNamePattern>B:/xtalpi/bootJava/src/main/resources/conf/log/info/info.%d.log</fileNamePattern>
+			<fileNamePattern>/Users/duya/Desktop/java/demo/src/main/resources/conf/log/info/info.%d.log</fileNamePattern>
 		</rollingPolicy>
 	</appender>
 	
@@ -42,7 +42,7 @@
 		<!-- error ch.qos.logback.core.rolling.TimeBasedRolligPolicy -->
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- 路径 -->
-			<fileNamePattern>B:/xtalpi/bootJava/src/main/resources/conf/log/error/error.%d.log</fileNamePattern>
+			<fileNamePattern>/Users/duya/Desktop/java/demo/src/main/resources/conf/log/error/error.%d.log</fileNamePattern>
 		</rollingPolicy>
 	</appender>
 	

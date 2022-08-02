@@ -17,7 +17,7 @@ public class QRCodeController {
 
 	@GetMapping("/common")
 	public void getProject() {
-		String filePath = "B:/xtalpi/bootJava/common.png";
+		String filePath = "/Users/duya/Desktop/java/demo/common.png";
 		String text = "https://github.com/J-DuYa/code-doc";
 		// 生成二维码
 		encodeQRCode(text, filePath);
@@ -27,7 +27,7 @@ public class QRCodeController {
 	public void getQR() throws IOException, WriterException {
 		BufferedImage code = createImage("https://github.com/J-DuYa/code-doc", null, false);
 		System.out.println(code);
-		combineCodeAndPicToFile("B:/xtalpi/bootJava/download.png", code);
+		combineCodeAndPicToFile("/Users/duya/Desktop/java/demo/download.png", code);
 	}
 
 }
