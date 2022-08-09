@@ -1,0 +1,163 @@
+Starting DemoApplication on duyadeMacBook-Pro.local with PID 57666 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5167f57d: startup date [Tue Aug 02 14:43:28 CST 2022]; root of context hierarchy
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5167f57d: startup date [Tue Aug 02 14:43:28 CST 2022]; root of context hierarchy
+Starting DemoApplication on duyadeMacBook-Pro.local with PID 65991 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following profiles are active: prod
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@461ad730: startup date [Tue Aug 02 14:54:34 CST 2022]; root of context hierarchy
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@461ad730: startup date [Tue Aug 02 14:54:34 CST 2022]; root of context hierarchy
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 5224 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 55 ms. Found 0 JPA repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3208 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Context refreshed
+Found 1 custom documentation plugin(s)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Pausing ProtocolHandler ["http-nio-8088"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8088"]
+Destroying ProtocolHandler ["http-nio-8088"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 7196 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 45 ms. Found 0 JPA repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3095 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Context refreshed
+Found 1 custom documentation plugin(s)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Pausing ProtocolHandler ["http-nio-8088"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8088"]
+Destroying ProtocolHandler ["http-nio-8088"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 8857 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2817 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 6.41 seconds (JVM running for 7.041)
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 14988 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3283 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 7.059 seconds (JVM running for 7.676)
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 32354 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2845 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 6.476 seconds (JVM running for 7.15)
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.

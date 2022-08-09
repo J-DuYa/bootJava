@@ -19,7 +19,7 @@ public class RedisController {
         return ResultUtil.success();
     }
 
-    @PostMapping
+    @PostMapping(value = "/addRedis")
     public Result<Object> setRedisData () {
         return ResultUtil.success();
     }

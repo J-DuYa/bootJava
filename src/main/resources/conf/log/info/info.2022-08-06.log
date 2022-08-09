@@ -1,0 +1,85 @@
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m39s385ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m37s222ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m5s53ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m33s572ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m27s318ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m131ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m1s832ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m33s45ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m43s651ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m9s474ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m5s100ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m52s765ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m16s292ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m17s21ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m11s106ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m28s95ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m24s738ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m24s487ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m19s481ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m58s888ms).
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+HV000001: Hibernate Validator 6.2.3.Final
+Starting DemoApplication using Java 17.0.1 on duyadeMacBook-Pro.local with PID 31114 (/Users/duya/Desktop/java/demo/target/classes started by duya in /Users/duya/Desktop/java/demo)
+The following 1 profile is active: "prod"
+Multiple Spring Data modules found, entering strict repository configuration mode
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.65]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3815 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.6.10.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Adding welcome page template: index
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started DemoApplication in 9.912 seconds (JVM running for 10.73)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+进入
+url=/redis/getRedis
+method=GET
+ip=0:0:0:0:0:0:0:1
+class_method=com.example.demo.controller.RedisController.getRedisData
+args={}
+response=com.example.demo.util.Result@19b3c7fa
+退出
+进入
+url=/redis/getRedis
+method=GET
+ip=0:0:0:0:0:0:0:1
+class_method=com.example.demo.controller.RedisController.getRedisData
+args={}
+response=com.example.demo.util.Result@511e2dc1
+退出
+进入
+url=/redis/getRedis
+method=GET
+ip=0:0:0:0:0:0:0:1
+class_method=com.example.demo.controller.RedisController.getRedisData
+args={}
+response=com.example.demo.util.Result@132e8fe2
+退出
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m59s857ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s312ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m48s790ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m30s100ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s115ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m55s605ms).
